@@ -1,0 +1,126 @@
+{
+  "data": {
+    "userInfo": {
+      "firstName": "Ad",
+      "lastName": "Min",
+      "email": "admin@sample.com",
+      "phone": "1-800-555-0123",
+      "mobile": "1-800-555-1231",
+      "location": "123 Main Street San Francisco, CA",
+      "avatarpath": "/avatars/avatar1465389809397-l.png",
+      "userId": 1
+    },
+    "followings": [
+      {
+        "followee": {
+          "userDisplayName": "Chung Lee",
+          "avatar": "/avatars/avatar.jpg",
+          "userId": 225,
+          "url": "/Page/UserProfile?userid=225"
+        },
+        "targetUrl": "/Page/UserProfile?userid=225"
+      },
+      {
+        "followee": {
+          "userDisplayName": "Charlie Chaplin",
+          "avatar": "/avatars/avatar.jpg",
+          "userId": 111,
+          "url": "/Page/UserProfile?userid=111"
+        },
+        "targetUrl": "/Page/UserProfile?userid=111"
+      },
+      {
+        "followee": {
+          "userDisplayName": "John Travis",
+          "avatar": "/avatars/avatar1458848883442.jpg",
+          "userId": 51,
+          "url": "/Page/UserProfile?userid=51"
+        },
+        "targetUrl": "/Page/UserProfile?userid=51"
+      },
+      {
+        "followee": {
+          "userDisplayName": "Yanin Jeeja",
+          "avatar": "/avatars/avatar1.jpg",
+          "userId": 325,
+          "url": "/Page/UserProfile?userid=325"
+        },
+        "targetUrl": "/Page/UserProfile?userid=325"
+      },
+      {
+        "followee": {
+          "userDisplayName": "Alice Wonderland",
+          "avatar": "/avatars/default_person.svg",
+          "userId": 22,
+          "url": "/Page/UserProfile?userid=22"
+        },
+        "targetUrl": "/Page/UserProfile?userid=22"
+      },
+      {
+        "followee": {
+          "userDisplayName": "Bill Moyers",
+          "avatar": "/avatars/avatar2.jpg",
+          "userId": 4,
+          "url": "/Page/UserProfile?userid=4"
+        },
+        "targetUrl": "/Page/UserProfile?userid=4"
+      },  
+      {
+        "followee": {
+          "userDisplayName": "Chung Li",
+          "avatar": "/avatars/avatar.jpg",
+          "userId": 226,
+          "url": "/Page/UserProfile?userid=226"
+        },
+        "targetUrl": "/Page/UserProfile?userid=226"
+      },
+      {
+        "followee": {
+          "userDisplayName": "Charles Johnson",
+          "avatar": "/avatars/avatar.jpg",
+          "userId": 112,
+          "url": "/Page/UserProfile?userid=112"
+        },
+        "targetUrl": "/Page/UserProfile?userid=112"
+      },
+      {
+        "followee": {
+          "userDisplayName": "Paul Rao",
+          "avatar": "/avatars/avatar1458848883442.jpg",
+          "userId": 52,
+          "url": "/Page/UserProfile?userid=52"
+        },
+        "targetUrl": "/Page/UserProfile?userid=52"
+      },
+      {
+        "followee": {
+          "userDisplayName": "Jayashri Santi",
+          "avatar": "/avatars/avatar1.jpg",
+          "userId": 326,
+          "url": "/Page/UserProfile?userid=326"
+        },
+        "targetUrl": "/Page/UserProfile?userid=326"
+      },
+      {
+        "followee": {
+          "userDisplayName": "Kenji Osawa",
+          "avatar": "/avatars/default_person.svg",
+          "userId": 23,
+          "url": "/Page/UserProfile?userid=23"
+        },
+        "targetUrl": "/Page/UserProfile?userid=23"
+      },
+      {
+        "followee": {
+          "userDisplayName": "Sara Chang",
+          "avatar": "/avatars/avatar2.jpg",
+          "userId": 5,
+          "url": "/Page/UserProfile?userid=5"
+        },
+        "targetUrl": "/Page/UserProfile?userid=5"
+      }
+    ],
+    "followingTitle": "People I like",
+    "followingCount": 12
+  }
+}
