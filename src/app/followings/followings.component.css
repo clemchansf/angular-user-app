@@ -1,0 +1,11 @@
+.alignment {
+    margin: 15px 0;
+}
+
+.follow-alignment {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 0;
+}
+

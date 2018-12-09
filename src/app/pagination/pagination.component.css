@@ -1,0 +1,11 @@
+.pagination-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+div, div i {
+    float: right;
+    color: navy;
+    margin: 0 5px;
+}

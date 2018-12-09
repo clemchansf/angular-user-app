@@ -1,0 +1,24 @@
+<div>
+  <div *ngIf="!followings" class="follow-container">
+    <div [@listStagger]="showLimit" class="section-header alignment">No followee found</div>
+  </div> 
+  <div *ngIf="followings" class="follow-container">
+    <div class="section-header alignment">{{ title }}</div>
+    <div [@listStagger]="showLimit">
+      <div class="follow-alignment"
+            *ngFor="let following of followings | slice:0:showLimit; let last = last"
+            [class.section-container]="!last"
+            [class.last-follow-item]="last">
+        <img class="avatar-size round" [src]="getAvatarSrc(following)"/>
+        <div class="contact-info">{{following.followee.userDisplayName}}</div>
+      </div>
+    </div>
+    <app-pagination (seeAll) ="onSeeAll($event)"
+      [limit]="showLimit"
+      [max]="followingsCount"
+      ></app-pagination>
+  </div>
+</div>
+
+
+  

@@ -1,0 +1,9 @@
+<div class="section-header alignment" [@fadeIn]="'in'">
+    <div class="following-type" 
+         [ngClass]="{'selected' : isFollowings }"
+         (click)="captureFollowings()">LIKES</div>
+    <div class="following-type" 
+         [ngClass]="{'selected' : isFollowers }"
+         (click)="captureFollowers()">NETWORK</div>
+  </div>
+  

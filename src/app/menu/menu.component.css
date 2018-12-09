@@ -1,0 +1,14 @@
+.alignment {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15px 0;
+    flex-direction: row;
+}
+.following-type {
+    display: inline;
+    margin: 0 9px;
+}
+
+.following-type.selected {
+    border-bottom: 3px solid navy;
+}

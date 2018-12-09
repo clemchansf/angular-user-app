@@ -1,0 +1,11 @@
+<div class="profile-container section-container" [@fadeIn]="'in'">
+  <img class="profile-avatar-size" [src]="getImgSrc()" />
+  <div class="profile">
+    <div>
+        <span class="contact-label">Name:</span> <span class="contact-info">{{ userInfo.firstName }} {{ userInfo.lastName }}</span>
+    </div>
+    <div *ngFor="let key of keys">
+        <span class="contact-label">{{key | titlecase}}: </span> <span class="contact-info">{{userInfo[key]}}</span>
+    </div>
+  </div>
+</div>

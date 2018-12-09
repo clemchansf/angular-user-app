@@ -1,0 +1,20 @@
+<div>
+    <div *ngIf="!followers" class="follow-container">
+      <div class="section-header alignment">No networker found</div>
+    </div> 
+    <div *ngIf="followers" class="follow-container">
+      <div class="section-header alignment">{{ title }}</div>
+      <div class="follow-alignment"
+            *ngFor="let follower of followers | slice:0:showLimit; let last = last"
+            [class.section-container]="!last"
+            [class.last-follow-item]="last">
+        <img class="avatar-size round" [src]="getAvatarSrc(follower)"/>
+        <div class="contact-info">{{follower.followee.userDisplayName}}</div>
+      </div>
+      <app-pagination (seeAll) ="onSeeAll($event)"
+        [limit]="showLimit"
+        [max]="followersCount"
+        ></app-pagination>
+    </div>
+  </div>
+  
