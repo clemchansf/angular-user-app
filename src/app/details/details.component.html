@@ -1,5 +1,7 @@
 <div class="profile-container section-container" [@fadeIn]="'in'">
-  <img class="profile-avatar-size" [src]="getImgSrc()" />
+  <div class="image-wrapper">
+      <img class="profile-avatar-size" [src]="getImgSrc()" />
+  </div>
   <div class="profile">
     <div>
         <span class="contact-label">Name:</span> <span class="contact-info">{{ userInfo.firstName }} {{ userInfo.lastName }}</span>
